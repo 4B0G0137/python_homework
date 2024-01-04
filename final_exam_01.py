@@ -21,6 +21,7 @@ class FriedChicken:
     def get_fried_chicken_info(self):
         print(f"name:{self.name}\nprice:{self.price} NTD\nquantity:{self.quantity}\nspiciness:{self.spiciness}\nreview:{self.review}\n")
 
+
 # 測資一
 fried_chicken_01 = FriedChicken(
     'spicy_fried_chicken', 60, 20, 'very spicy', 'It is so spicy!')
