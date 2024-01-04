@@ -22,23 +22,40 @@ class FriedChicken:
         print(f"name:{self.name}\nprice:{self.price} NTD\nquantity:{self.quantity}\nspiciness:{self.spiciness}\nreview:{self.review}\n")
 
 
-# 測資一
+# 建立炸雞物件一
 fried_chicken_01 = FriedChicken(
     'spicy_fried_chicken', 60, 20, 'very spicy', 'It is so spicy!')
+# 更改價格
 fried_chicken_01.change_price(65)
+
+# 更改數量
 fried_chicken_01.change_quantity(10)
+
+# 輸出炸雞的詳細訊息
 fried_chicken_01.get_fried_chicken_info()
 
-# 測資二
+#  建立炸雞物件二
 fried_chicken_01 = FriedChicken(
     'Pepper_fried_chicken', 70, 30, 'a little spicy', 'It is so delicious!')
+
+# 更改價格
 fried_chicken_01.change_price(60)
+
+# 更改數量
 fried_chicken_01.change_quantity(15)
+
+# 輸出炸雞的詳細訊息
 fried_chicken_01.get_fried_chicken_info()
 
-# 測資三
+#  建立炸雞物件三
 fried_chicken_01 = FriedChicken(
     'garlic_fried_chicken', 80, 40, 'very spicy', 'I like this so much!')
+
+# 更改價格
 fried_chicken_01.change_price(90)
+
+# 更改數量
 fried_chicken_01.change_quantity(20)
+
+# 輸出炸雞的詳細訊息
 fried_chicken_01.get_fried_chicken_info()
